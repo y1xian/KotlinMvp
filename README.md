@@ -39,7 +39,7 @@ override fun onCreate() {
  - 如果要创建Activity，则直接输入（例如：输入Login）
 ![一键生成](http://upload-images.jianshu.io/upload_images/6420758-58332b39a3a60039.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 - 如果要创建Fragment，则输入（例如：输入HomeFragment）（Fragment不能省！！！不然得到的是Activity）
-![QQ截图20171108150334.png](http://upload-images.jianshu.io/upload_images/6420758-5196e8ae77bbaf43.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![一键生成](http://upload-images.jianshu.io/upload_images/6420758-5196e8ae77bbaf43.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 5.网络请求 简单到爆炸
 ![网络请求](http://upload-images.jianshu.io/upload_images/6420758-6bba37c91e3bfe5d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
