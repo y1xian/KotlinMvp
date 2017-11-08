@@ -1,0 +1,25 @@
+package &package&
+
+import &pack&.R
+import &base&.BaseActivity
+
+/**
+ * @author yyx
+ */
+
+class &Activity& : BaseActivity<&Contract&.View, &Presenter&>(), &Contract&.View{
+
+    override var mPresenter: &Presenter& = &Presenter&()
+
+
+    override fun layoutResID(): Int  = R.layout.&activity_main&
+
+    override fun initView() {
+    }
+
+    override fun initData() {
+    }
+
+    override fun onSuccessData(url_type: Int, load_type: Int, msg: String, status: Int) {
+    }
+}

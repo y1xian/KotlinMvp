@@ -1,0 +1,19 @@
+package &package&
+
+import &base&.IBasePresenter
+import &base&.IBaseView
+
+/**
+ * @author yyx
+ */
+
+object &Contract& {
+
+    interface View : IBaseView {
+        fun onSuccessData(url_type: Int, load_type: Int, msg: String, status: Int)
+    }
+
+    interface Presenter : IBasePresenter<View> {
+        fun loadRepositories()
+    }
+}

@@ -1,0 +1,38 @@
+<idea-plugin>
+    <id>com.yyx.kotlinmvp</id>
+    <name>KotlinMvp</name>
+    <version>1.0</version>
+    <vendor email="code_y@163.com" url="http://https://github.com/y1xian">yyx</vendor>
+
+    <description><![CDATA[
+      KotlinMvp is based on the evolution of the MVPPlugin plug-in, is a quick generation of Ktolin MVP template plug ins <br>
+      Please go to <a href="http://https://github.com/y1xian">GitHub</a> or <a href="http://www.jianshu.com/p/4ccb8d3175bb">http://www.jianshu.com/p/4ccb8d3175bb</a> for details<br>
+
+    ]]></description>
+
+    <change-notes><![CDATA[
+
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="145.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <action id="KotlinMvp" class="template.AndroidMvpAction" text="KotlinMvp"
+                description="Help you to quickly generate a template">
+            <add-to-group group-id="NewGroup" anchor="last"/>
+        </action>
+    </actions>
+
+</idea-plugin>
