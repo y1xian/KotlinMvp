@@ -1,13 +1,13 @@
 <idea-plugin>
     <id>com.yyx.kotlinmvp</id>
     <name>KotlinMvp</name>
-    <version>1.0</version>
+    <version>1.1</version>
     <vendor email="code_y@163.com" url="http://https://github.com/y1xian">yyx</vendor>
 
     <description><![CDATA[
       KotlinMvp is based on the evolution of the MVPPlugin plug-in, is a quick generation of Ktolin MVP template plug ins <br>
-      Please go to <a href="http://https://github.com/y1xian">GitHub</a> or <a href="http://www.jianshu.com/p/4ccb8d3175bb">http://www.jianshu.com/p/4ccb8d3175bb</a> for details<br>
-
+      Please go to <a href="https://github.com/y1xian/KotlinMvp">GitHub</a> or <a href="http://www.jianshu.com/p/4ccb8d3175bb">http://www.jianshu.com/p/4ccb8d3175bb</a> for details<br>
+      KotlinMvp是一个能快速开发的插件,一键生成MVP模板,并且已经帮封装好基类。<br>
     ]]></description>
 
     <change-notes><![CDATA[
