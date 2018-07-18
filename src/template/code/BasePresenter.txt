@@ -42,6 +42,7 @@ abstract class BasePresenter<V : IBaseView> : IBasePresenter<V> {
     override fun unsubscribe() {
         if (compositeDisposable != null) {
             compositeDisposable!!.dispose()
+            compositeDisposable = null
         }
     }
 
